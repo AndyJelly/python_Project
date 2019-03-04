@@ -316,7 +316,8 @@ def demo_3D():
 
     # 设置z轴的维度
     ax.set_zlim(-2, 2)
-
+    # 保存图片
+    plt.savefig('./data/fig3D.png')
     plt.show()
 
 
